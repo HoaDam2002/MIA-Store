@@ -1,0 +1,24 @@
+.container {
+    height: 120px;
+    width: 100%;
+}
+
+.wrapper_top {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.logo {
+    width: 180px;
+}
+
+.menu {
+    cursor: pointer;
+
+    &:hover {
+        color: var(--primary-color);
+    }
+}

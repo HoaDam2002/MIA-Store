@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.primary {
+    height: 40px;
+    padding: 8px 30px;
+    background-color: var(--primary-color);
+    color: var(--white);
+
+    &:hover {
+        background-color: #c62e46;
+    }
+}
+
+.outline {
+    height: 32px;
+    padding: 0 7px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    background-color: transparent;
+    color: var(--text-color);
+
+    &:hover {
+        background-color: #ececee;
+    }
+
+    .icon {
+        font-size: 1rem;
+    }
+}
+
+.title {
+    margin-left: 5px;
+}
