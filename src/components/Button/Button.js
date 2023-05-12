@@ -5,7 +5,20 @@ import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
-function Button({ children, primary, outline, leftIcon, rightIcon, to, href, onClick, ...passProps }) {
+function Button({
+    children,
+    primary = false,
+    outline = false,
+    normal = false,
+    underline = false,
+    leftIcon = false,
+    rightIcon = false,
+    highlight = false,
+    to = false,
+    href = false,
+    onClick,
+    ...passProps
+}) {
     let Comp = 'button';
     const props = {
         onClick,
@@ -25,6 +38,9 @@ function Button({ children, primary, outline, leftIcon, rightIcon, to, href, onC
         primary,
         leftIcon,
         outline,
+        normal,
+        underline,
+        highlight,
         rightIcon,
     });
 

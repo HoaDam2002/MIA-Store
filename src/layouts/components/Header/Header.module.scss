@@ -1,0 +1,43 @@
+.container {
+    height: 120px;
+    width: 100%;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper_top {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.box-logo {
+    width: 170px;
+}
+
+.logo {
+    height: 40px;
+    background-image: none;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu {
+    cursor: pointer;
+
+    &:hover {
+        color: var(--primary-color);
+    }
+}
+
+// wrapper bottom
+.wrapper_bottom {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
